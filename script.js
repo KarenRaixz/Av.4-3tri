@@ -12,7 +12,7 @@ document.getElementById('gradeForm').addEventListener('submit', function(event) 
     }
 
     if (grade >= 6) {
-        result.textContent = 'Parabens, voce foi aprovada (o)! ';
+        result.textContent = 'Parabéns, você foi aprovada (o)! ';
         result.style.color = '#4b6584'; /* azul vintage */
     } else {
         result.textContent = 'Poxa, não foi dessa vez';
