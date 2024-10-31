@@ -11,7 +11,7 @@ document.getElementById('gradeForm').addEventListener('submit', function(event) 
         return;
     }
 
-    if (grade >= 6) {
+    if (grade >= 60) {
         result.textContent = 'Parabéns, você foi aprovada (o)! ';
         result.style.color = '#4b6584'; /* azul vintage */
     } else {
