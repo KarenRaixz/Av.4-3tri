@@ -3,33 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Aprovação </title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Teste de Aprovação Coquette</title>
+    <link rel="stylesheet" href="styles-coquette.css">
 </head>
 <body>
     <div class="container">
-        <div class="icon">🌸</div>
-        
-        <h1>Teste de Aprovação </h1>
-        <p class="tagline">Calcule sua média trimestral!</p>
-        
-        <form id="gradeForm">
-            <label for="grade1">Nota 1º Trimestre :</label>
-            <input type="number" id="grade1" placeholder="Ex: 7.5" required>
+        <div class="decorative-frame">
+            <h1>Verifique Sua Média</h1>
+            <p class="tagline">Descubra se você foi aprovada com charme!</p>
             
-            <label for="grade2">Nota 2º Trimestre:</label>
-            <input type="number" id="grade2" placeholder="Ex: 6.0" required>
+            <form id="gradeForm">
+                <label for="grade1">Nota 1ª Unidade:</label>
+                <input type="number" id="grade1" placeholder="Ex: 8.0" required>
+                
+                <label for="grade2">Nota 2ª Unidade:</label>
+                <input type="number" id="grade2" placeholder="Ex: 9.0" required>
+                
+                <label for="grade3">Nota 3ª Unidade:</label>
+                <input type="number" id="grade3" placeholder="Ex: 7.5" required>
+                
+                <button type="submit">Calcular Média</button>
+            </form>
             
-            <label for="grade3">Nota 3º Trimestre:</label>
-            <input type="number" id="grade3" placeholder="Ex: 8.0" required>
-            
-            <button type="submit">Calcular Média</button>
-        </form>
-        
-        <p id="result"></p>
+            <p id="result"></p>
+        </div>
     </div>
     
     <script src="script.js"></script>
 </body>
 </html>
+
 
